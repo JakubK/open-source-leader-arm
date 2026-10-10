@@ -1,4 +1,4 @@
-# Changes in this fork, original readme below
+# Changes made in this fork, original readme below
 
 ## PCB 
 
