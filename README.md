@@ -1,3 +1,11 @@
+# Changes in this fork, original readme below
+
+## PCB 
+
+Added custom PCB which applies [JLCPCB design rules](https://github.com/labtroll/KiCad-DesignRules). It allows to mount either esp32 or raspberry pi pico after flashing custom firmware.
+
+Each encoder DIR port was split into DIR+ and DIR-. DIR- resembles DIR from original project and is tied to GND, while conversely DIR+ is tied to the 3V3 from the Board, allowing to switch encoder direction in case the magnet polarity is wrong, which can be noticed in the simulation.
+
 # Open-source Leader Arm
 
 Open-source, low-cost, 3D-printed leader arm for teleoperating an SO-ARM 
