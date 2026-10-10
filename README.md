@@ -6,6 +6,8 @@ Added custom PCB which applies [JLCPCB design rules](https://github.com/labtroll
 
 Each encoder DIR port was split into DIR+ and DIR-. DIR- resembles DIR from original project and is tied to GND, while conversely DIR+ is tied to the 3V3 from the Board, allowing to switch encoder direction in case the magnet polarity is wrong, which can be noticed in the simulation.
 
+It can be mounted on the original arm base in the place of solderboard, using 4 M2 bolts of 4mm length and heat inserts for them.
+
 # Open-source Leader Arm
 
 Open-source, low-cost, 3D-printed leader arm for teleoperating an SO-ARM 
